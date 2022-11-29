@@ -1,0 +1,7 @@
+{
+  "name": "Claqué",
+  "packageManager": "yarn@3.3.0",
+  "devDependencies": {
+    "@symfony/webpack-encore": "^4.1.2"
+  }
+}
