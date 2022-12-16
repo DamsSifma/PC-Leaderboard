@@ -8,7 +8,12 @@ use Doctrine\Common\Collections\Collection;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
+use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
+use Symfony\Component\Validator\Constraints as Assert;
+
 #[ORM\Entity(repositoryClass: UserRepository::class)]
+#[UniqueEntity('username')]
+#[UniqueEntity('email')]
 class User
 {
     #[ORM\Id]
@@ -25,7 +30,7 @@ class User
     #[ORM\Column(length: 255)]
     private ?string $password = null;
 
-    #[ORM\Column(type: Types::ARRAY, nullable: true)]
+    #[ORM\Column(type: Types::SIMPLE_ARRAY, nullable: true)]
     private array $roles = [];
 
     #[ORM\Column(length: 255)]
@@ -231,4 +236,5 @@ class User
 
         return $this;
     }
+
 }
