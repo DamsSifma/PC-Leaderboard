@@ -1985,6 +1985,7 @@ __metadata:
     "@symfony/webpack-encore": ^4.2.0
     adminbsb-materialdesign: ^1.0.7
     sass-loader: ^13.2.0
+    twig: ^1.15.4
     webpack: ^5.75.0
     webpack-cli: ^5.0.1
   languageName: unknown
@@ -3429,6 +3430,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"foreachasync@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "foreachasync@npm:3.0.0"
+  checksum: 4791f64b539b06c751b14adb2881173c780d41ce37d881715a5e5787fa4a08961f2c6a6cf3bccdfa48e56fb91d8676d867fdc63c008cdb576bd33261716e8381
+  languageName: node
+  linkType: hard
+
 "forwarded@npm:0.2.0":
   version: 0.2.0
   resolution: "forwarded@npm:0.2.0"
@@ -4210,6 +4218,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"locutus@npm:^2.0.11":
+  version: 2.0.16
+  resolution: "locutus@npm:2.0.16"
+  checksum: 69eaaf119462d54fd55d1f23c15df8365a36c610520a30d7a456046369dae7530ece938783cda7f5e051a0c15655bb2c15110b3ef725fb46a762975be3b50d07
+  languageName: node
+  linkType: hard
+
 "lodash.debounce@npm:^4.0.8":
   version: 4.0.8
   resolution: "lodash.debounce@npm:4.0.8"
@@ -4388,6 +4403,15 @@ __metadata:
   version: 1.0.1
   resolution: "minimalistic-assert@npm:1.0.1"
   checksum: cc7974a9268fbf130fb055aff76700d7e2d8be5f761fb5c60318d0ed010d839ab3661a533ad29a5d37653133385204c503bfac995aaa4236f4e847461ea32ba7
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:3.0.x":
+  version: 3.0.8
+  resolution: "minimatch@npm:3.0.8"
+  dependencies:
+    brace-expansion: ^1.1.7
+  checksum: 850cca179cad715133132693e6963b0db64ab0988c4d211415b087fc23a3e46321e2c5376a01bf5623d8782aba8bdf43c571e2e902e51fdce7175c7215c29f8b
   languageName: node
   linkType: hard
 
@@ -6161,6 +6185,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"twig@npm:^1.15.4":
+  version: 1.15.4
+  resolution: "twig@npm:1.15.4"
+  dependencies:
+    "@babel/runtime": ^7.8.4
+    locutus: ^2.0.11
+    minimatch: 3.0.x
+    walk: 2.3.x
+  bin:
+    twigjs: ./bin/twigjs
+  checksum: 99165227a1466e8f5ec479748aedf72fd0ccb85c3ada4c9c15936b7e253ce50d5da9d6654b42197b9e46d5d1970ee413d2bef3ca79f552b4c238acef74dc61bc
+  languageName: node
+  linkType: hard
+
 "type-is@npm:~1.6.18":
   version: 1.6.18
   resolution: "type-is@npm:1.6.18"
@@ -6284,6 +6322,15 @@ __metadata:
   version: 1.1.2
   resolution: "vary@npm:1.1.2"
   checksum: ae0123222c6df65b437669d63dfa8c36cee20a504101b2fcd97b8bf76f91259c17f9f2b4d70a1e3c6bbcee7f51b28392833adb6b2770b23b01abec84e369660b
+  languageName: node
+  linkType: hard
+
+"walk@npm:2.3.x":
+  version: 2.3.15
+  resolution: "walk@npm:2.3.15"
+  dependencies:
+    foreachasync: ^3.0.0
+  checksum: d494df1924656cc4881ff8f70474f80be10d07d0c899620e02ff8627e4f339f37e74d1b30b70e7a714d0b873b0dc8b20129a619c4b407b39949c756637ebe3a6
   languageName: node
   linkType: hard
 

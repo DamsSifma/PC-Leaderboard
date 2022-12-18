@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@symfony/webpack-encore", "virtual:b37d47f4f56b82a98c30d98e741d7ba754369d0ceda2dbcfe9ef01b06612d733478de32bdcc7658aa35503b9583ee3bc8a976ba319a2c037e862f808336d7d7f#npm:4.2.0"],\
             ["adminbsb-materialdesign", "npm:1.0.7"],\
             ["sass-loader", "virtual:b37d47f4f56b82a98c30d98e741d7ba754369d0ceda2dbcfe9ef01b06612d733478de32bdcc7658aa35503b9583ee3bc8a976ba319a2c037e862f808336d7d7f#npm:13.2.0"],\
+            ["twig", "npm:1.15.4"],\
             ["webpack", "virtual:b37d47f4f56b82a98c30d98e741d7ba754369d0ceda2dbcfe9ef01b06612d733478de32bdcc7658aa35503b9583ee3bc8a976ba319a2c037e862f808336d7d7f#npm:5.75.0"],\
             ["webpack-cli", "virtual:b37d47f4f56b82a98c30d98e741d7ba754369d0ceda2dbcfe9ef01b06612d733478de32bdcc7658aa35503b9583ee3bc8a976ba319a2c037e862f808336d7d7f#npm:5.0.1"]\
           ],\
@@ -3092,6 +3093,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@symfony/webpack-encore", "virtual:b37d47f4f56b82a98c30d98e741d7ba754369d0ceda2dbcfe9ef01b06612d733478de32bdcc7658aa35503b9583ee3bc8a976ba319a2c037e862f808336d7d7f#npm:4.2.0"],\
             ["adminbsb-materialdesign", "npm:1.0.7"],\
             ["sass-loader", "virtual:b37d47f4f56b82a98c30d98e741d7ba754369d0ceda2dbcfe9ef01b06612d733478de32bdcc7658aa35503b9583ee3bc8a976ba319a2c037e862f808336d7d7f#npm:13.2.0"],\
+            ["twig", "npm:1.15.4"],\
             ["webpack", "virtual:b37d47f4f56b82a98c30d98e741d7ba754369d0ceda2dbcfe9ef01b06612d733478de32bdcc7658aa35503b9583ee3bc8a976ba319a2c037e862f808336d7d7f#npm:5.75.0"],\
             ["webpack-cli", "virtual:b37d47f4f56b82a98c30d98e741d7ba754369d0ceda2dbcfe9ef01b06612d733478de32bdcc7658aa35503b9583ee3bc8a976ba319a2c037e862f808336d7d7f#npm:5.0.1"]\
           ],\
@@ -4937,6 +4939,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["foreachasync", [\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/foreachasync-npm-3.0.0-c8ac3c5fca-4791f64b53.zip/node_modules/foreachasync/",\
+          "packageDependencies": [\
+            ["foreachasync", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["forwarded", [\
         ["npm:0.2.0", {\
           "packageLocation": "./.yarn/cache/forwarded-npm-0.2.0-6473dabe35-fd27e2394d.zip/node_modules/forwarded/",\
@@ -5834,6 +5845,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["locutus", [\
+        ["npm:2.0.16", {\
+          "packageLocation": "./.yarn/cache/locutus-npm-2.0.16-42263975b1-69eaaf1194.zip/node_modules/locutus/",\
+          "packageDependencies": [\
+            ["locutus", "npm:2.0.16"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["lodash", [\
         ["npm:4.17.21", {\
           "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-eb835a2e51.zip/node_modules/lodash/",\
@@ -6058,6 +6078,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["minimatch", [\
+        ["npm:3.0.8", {\
+          "packageLocation": "./.yarn/cache/minimatch-npm-3.0.8-f3deb724b2-850cca179c.zip/node_modules/minimatch/",\
+          "packageDependencies": [\
+            ["minimatch", "npm:3.0.8"],\
+            ["brace-expansion", "npm:1.1.11"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:3.1.2", {\
           "packageLocation": "./.yarn/cache/minimatch-npm-3.1.2-9405269906-c154e56640.zip/node_modules/minimatch/",\
           "packageDependencies": [\
@@ -8410,6 +8438,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["twig", [\
+        ["npm:1.15.4", {\
+          "packageLocation": "./.yarn/cache/twig-npm-1.15.4-f461f3a420-99165227a1.zip/node_modules/twig/",\
+          "packageDependencies": [\
+            ["twig", "npm:1.15.4"],\
+            ["@babel/runtime", "npm:7.20.6"],\
+            ["locutus", "npm:2.0.16"],\
+            ["minimatch", "npm:3.0.8"],\
+            ["walk", "npm:2.3.15"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["type-is", [\
         ["npm:1.6.18", {\
           "packageLocation": "./.yarn/cache/type-is-npm-1.6.18-6dee4d4961-2c8e47675d.zip/node_modules/type-is/",\
@@ -8563,6 +8604,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/vary-npm-1.1.2-b49f70ae63-ae0123222c.zip/node_modules/vary/",\
           "packageDependencies": [\
             ["vary", "npm:1.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["walk", [\
+        ["npm:2.3.15", {\
+          "packageLocation": "./.yarn/cache/walk-npm-2.3.15-66aa482149-d494df1924.zip/node_modules/walk/",\
+          "packageDependencies": [\
+            ["walk", "npm:2.3.15"],\
+            ["foreachasync", "npm:3.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
